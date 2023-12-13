@@ -1,4 +1,4 @@
-#include "mymonty.h"
+#include "monty.h"
 
 void my_push(stack_t **stack, unsigned int line_number);
 void my_pall(stack_t **stack, unsigned int line_number);

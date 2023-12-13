@@ -1,3 +1,4 @@
+#include "monty.h"
 #include <stdlib.h>
 
 char *get(int num);

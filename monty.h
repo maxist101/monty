@@ -1,5 +1,5 @@
-#ifndef __MYMONTY_H__
-#define __MYMONTY_H__
+#ifndef __MONTY_H__
+#define __MONTY_H__
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -86,5 +86,5 @@ int stackz_err(unsigned int line_number, char *op_code);
 int err_div(unsigned int line_number);
 int err_pchar(unsigned int line_number, char *msg);
 
-#endif /* __MYMONTY_H__ */
+#endif /* __MONTY_H__ */
 

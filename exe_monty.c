@@ -1,4 +1,4 @@
-#include "mymonty.h"
+#include "monty.h"
 #include <string.h>
 
 void tokes_free(void);
