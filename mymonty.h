@@ -78,7 +78,7 @@ char *get(int n);
 int use_err(void);
 int malloc_err(void);
 int open_err(char *filename);
-int not_known_error(char *opcode, unsigned int line_number);
+int not_known_err(char *opcode, unsigned int line_number);
 int no_err(unsigned int line_number);
 int err_pop(unsigned int line_number);
 int err_pint(unsigned int line_number);
