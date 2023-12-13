@@ -1,4 +1,4 @@
-#include "monty.h"
+#include "mymonty.h"
 #include <string.h>
 
 void stack_free(stack_t **stack);
