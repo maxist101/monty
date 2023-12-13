@@ -49,7 +49,7 @@ int mode(stack_t *stackz);
 void tokes_free(void);
 unsigned int tokes_len(void);
 int exe_monty(FILE *fd_script);
-void set_optokesERR(int error_code);
+void op_tok_err(int err_code);
 
 /* OPCODE FUNCTIONS PROTOTYPES */
 void my_pall(stack_t **stackz, unsigned int line_number);
