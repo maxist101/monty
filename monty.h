@@ -77,7 +77,7 @@ void my_rotl(stack_t **nodepointer, __attribute__((unused)) unsigned int line_nu
 void my_stack(stack_t **nodepointer, unsigned int line_number);
 void my_queue(stack_t **nodepointer, unsigned int line_number);
 void pop_queue(stack_t **nodepointer, int n);
-int pop_exe(char *payload, stack_t **stack, unsigned int count, FILE *file);
+int exe(char *payload, stack_t **stack, unsigned int count, FILE *file);
 void stack_free(stack_t *nodepointer);
 void pop_queue(stack_t **nodepointer, int n);
 void in_node(stack_t **nodepointer, int n);

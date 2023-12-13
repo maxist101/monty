@@ -41,7 +41,7 @@ env.payload = payload;
 num_ln++;
 if (init_line > 0)
 {
-pop_exe(payload, &stack, num_ln, file);
+exe(payload, &stack, num_ln, file);
 }
 free(payload);
 }
