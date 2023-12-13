@@ -45,7 +45,7 @@ error_manager(line_number, nodepointer);
 
 for (jan = (env.arg[0] == '-'); env.arg[jan]; ++jan)
 {
-if (!isdigit(env.arg[j]))
+if (!isdigit(env.arg[jan]))
 {
 error_manager(line_number, nodepointer);
 }

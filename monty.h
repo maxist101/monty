@@ -60,7 +60,7 @@ typedef struct MontyMilieu
 extern MontyMilieu_t env;
 
 void my_push(stack_t **nodepointer, unsigned int line_number);
-void my _pall(stack_t **nodepointer, unsigned int line_number);
+void my_pall(stack_t **nodepointer, unsigned int line_number);
 void my_pint(stack_t **nodepointer, unsigned int line_number);
 void my_pop(stack_t **nodepointer, unsigned int line_number);
 void my_swap(stack_t **nodepointer, unsigned int line_number);
@@ -80,6 +80,6 @@ void pop_queue(stack_t **nodepointer, int n);
 int pop_exe(char *payload, stack_t **stack, unsigned int count, FILE *file);
 void stack_free(stack_t *nodepointer);
 void pop_queue(stack_t **nodepointer, int n);
-void h_ode(stack_t **nodepointer, int n);
+void in_node(stack_t **nodepointer, int n);
 
 #endif /*_MONTY_H*/
