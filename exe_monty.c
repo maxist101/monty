@@ -112,6 +112,8 @@ void (*opfunct_get(char *opcode))(stack_t**, unsigned int)
 int exe_monty(FILE *fd_script)
 {
 	stack_t *stackz = NULL;
+
+	ssize_t getline(char **lineptr, size_t *n, FILE *stream);
 	char *lines = NULL;
 	size_t length = 0, status_terminate = EXIT_SUCCESS;
 	unsigned int numb_ln = 0, lentok_prevs = 0;
