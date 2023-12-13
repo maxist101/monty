@@ -16,7 +16,7 @@ void my_add(stack_t **nodepointer, unsigned int line_number)
 		fprintf(stderr, "L%d: can't add, stack too short\n", line_number);
 		fclose(env.file);
 		free(env.payload);
-		free_stack(*nodepointer);
+		stack_free(*nodepointer);
 		exit(EXIT_FAILURE);
 	}
 
