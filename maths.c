@@ -116,7 +116,7 @@ void my_div(stack_t **nodepointer, unsigned int line_number)
 
 
 /**
- *my _mul -my code function that  multiply the top two elem.
+ * my_mul -my code function that  multiply the top two elem.
  * @nodepointer : nodepointer
  * @line_number: Int line
  * Return: Null
