@@ -7,9 +7,9 @@
  */
 void my_stack(stack_t **nodepointer, unsigned int line_number)
 {
-	(void)nodepointer;
-	(void)line_number;
-	env.nofi = 0;
+(void)nodepointer;
+(void)line_number;
+env.nofi = 0;
 }
 /**
  * my_queue - prints top
@@ -19,7 +19,8 @@ void my_stack(stack_t **nodepointer, unsigned int line_number)
  */
 void my_queue(stack_t **nodepointer, unsigned int line_number)
 {
-	(void)nodepointer;
-	(void)line_number;
-	env.nofi = 1;
+(void)nodepointer;
+(void)line_number;
+env.nofi = 1;
 }
+/*ANTHONY MAXWELL*/

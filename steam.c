@@ -8,23 +8,20 @@
  */
 void in_node(stack_t **nodepointer, int n)
 {
-	stack_t *steam, *beam;
-
-	beam = *nodepointer;
-	steam = malloc(sizeof(stack_t));
-	if (steam == NULL)
-	{
-		fprintf(stderr, "Error: Memory allocation failed\n");
-		exit(EXIT_FAILURE);
-	}
-
-	if (beam)
-		beam->prev = steam;
-
-	steam->n = n;
-	steam->next = *nodepointer;
-	steam->prev = NULL;
-	*nodepointer = steam;
+stack_t *steam, *beam;
+beam = *nodepointer;
+steam = malloc(sizeof(stack_t));
+if (steam == NULL)
+{
+fprintf(stderr, "Error: Memory allocation failed\n");
+exit(EXIT_FAILURE);
+}
+if (beam)
+beam->prev = steam;
+steam->n = n;
+steam->next = *nodepointer;
+steam->prev = NULL;
+*nodepointer = steam;
 }
 
 /**
@@ -35,33 +32,30 @@ void in_node(stack_t **nodepointer, int n)
  */
 void pop_queue(stack_t **nodepointer, int n)
 {
-	stack_t *steam, *beam;
-
-	beam = *nodepointer;
-	steam = malloc(sizeof(stack_t));
-	if (steam == NULL)
-	{
-		fprintf(stderr, "Error: Memory allocation failed\n");
-		exit(EXIT_FAILURE);
-	}
-
-	steam->n = n;
-	steam->next = NULL;
-
-	if (beam)
-	{
-		while (beam->next)
-			beam = beam->next;
-	}
-
-	if (!beam)
-	{
-		*nodepointer = steam;
-		steam->prev = NULL;
-	}
-	else
-	{
-		beam->next = steam;
-		steam->prev = beam;
-	}
+stack_t *steam, *beam;
+beam = *nodepointer;
+steam = malloc(sizeof(stack_t));
+if (steam == NULL)
+{
+fprintf(stderr, "Error: Memory allocation failed\n");
+exit(EXIT_FAILURE);
 }
+steam->n = n;
+steam->next = NULL;
+if (beam)
+{
+while (beam->next)
+beam = beam->next;
+}
+if (!beam)
+{
+*nodepointer = steam;
+steam->prev = NULL;
+}
+else
+{
+beam->next = steam;
+steam->prev = beam;
+}
+}
+/*ANTHONY MAXWELL*/

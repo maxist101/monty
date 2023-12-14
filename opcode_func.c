@@ -31,7 +31,7 @@ exit(EXIT_FAILURE);
 void my_push(stack_t **nodepointer, unsigned int line_number)
 {
 size_t jan;
-int yep;
+int yep; /* VARAIBLE DECALARATION*/
 
 if (!env.arg || !*env.arg)
 {
@@ -129,3 +129,4 @@ camp = initial->n;
 initial->n = latter->n;
 latter->n = camp;
 }
+/*ANTHONY MAXWELL*/
