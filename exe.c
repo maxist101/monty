@@ -18,7 +18,7 @@ int exe(char *payload, stack_t **stack, unsigned int line_number, FILE *file)
 		{"pop", my_pop},
 		{"swap", my_swap},
 		{"add", my_add},
-		{"nop", my_nop},
+		/*{"nop", my_nop},
 		{"sub", my_sub},
 		{"div", my_div},
 		{"mul", my_mul},
@@ -28,7 +28,7 @@ int exe(char *payload, stack_t **stack, unsigned int line_number, FILE *file)
 		{"rotl", my_rotl},
 		{"rotr", my_rotr},
 		{"queue", my_queue},
-		{"stack", my_stack},
+		{"stack", my_stack},*/
 		{NULL, NULL},
 	};
 	unsigned int k = 0;
