@@ -72,8 +72,10 @@ void my_mul(stack_t **nodepointer, unsigned int line_number);
 void my_mod(stack_t **nodepointer, unsigned int line_number);
 void my_pchar(stack_t **nodepointer, unsigned int line_number);
 void my_pstr(stack_t **nodepointer, unsigned int line_number);
-void my_rotr(stack_t **nodepointer, __attribute__((unused)) unsigned int line_number);
-void my_rotl(stack_t **nodepointer, __attribute__((unused)) unsigned int line_number);
+void my_rotr(stack_t **nodepointer,
+		__attribute__((unused)) unsigned int line_number);
+void my_rotl(stack_t **nodepointer,
+		__attribute__((unused)) unsigned int line_number);
 void my_stack(stack_t **nodepointer, unsigned int line_number);
 void my_queue(stack_t **nodepointer, unsigned int line_number);
 void pop_queue(stack_t **nodepointer, int n);
